@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+    <form id="calculator">
+      <div class="form-group">
+        <label for="number1">1st Number</label>
+        <input id="number1" type="number" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="number2">2nd Number</label>
+        <input id="number2" class="form-control" type="number">
+      </div>
+      <div class="radio">
+        <label for=""><input type="radio" name="operator" value="add" checked>Add</label>
+      </div>
+      <div class="radio">
+        <label for=""><input type="radio" name="operator" value="subtract" checked>Subtract</label>
+      </div>
+      <div class="radio">
+        <label for=""><input type="radio" name="operator" value="multiply" checked>Multiply</label>
+      </div>
+      <div class="radio">
+        <label for=""><input type="radio" name="operator" value="divide" checked>Divide</label>
+      </div>
+      <button type="submit" class="btn">Do It!!!</button>
+    </form>
+    <div id="output">
+      <p>The final ping ponged result <span id="answer"></span></p>
+    </div>
+    <ul id="solution"></ul>
+    <form id="signup">
+      <label for="email">Enter your email:</label>
+      <input id="email" type="text">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
